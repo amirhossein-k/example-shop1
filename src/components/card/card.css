@@ -1,0 +1,72 @@
+.container-cards{
+    --bs-gutter-x: 0rem;
+    margin: 10px 0 !important;
+  
+}
+.container-cards .my-col-card{
+    
+}
+.container-cards .my-col-card .my-card{
+    height: 98%;
+  
+   
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: rgb(223, 223, 223);
+    --bs-gutter-x: 0rem;
+}
+.container-cards .my-col-card .my-card .card-title{
+    color: #a5a3a3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-cards .my-col-card .my-card .box-img{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container-cards .my-col-card .my-card .box-img img{
+ width: 100px;
+    height: 100px;
+    border-radius: 15px;
+}
+
+.container-cards .my-col-card .my-card .price{
+    color: #2e7cad;
+     margin: 5px 0;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+}
+.container-cards .my-col-card .my-card .discription{
+
+
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+overflow: hidden;
+}
+.container-cards .my-col-card .my-card .discription p{
+
+    height:fit-content;
+
+
+}
+.container-cards .my-col-card .my-card .discription span{
+
+    padding: 5px 10px;
+    background-color: #2e7cad;
+    border-radius: 5px;
+}
+.container-cards .my-col-card .my-card .discription span:hover{
+
+   background-color: #0d5a8a;
+   color: #fff;
+   cursor: pointer;
+}
